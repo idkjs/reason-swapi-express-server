@@ -1,0 +1,24 @@
+{
+  "name": "reason-swapi-express-server",
+  "version": "0.1.0",
+  "scripts": {
+    "start:node": "nodemon ./src/index.bs.js",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Alain Armand",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.0.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^5.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
